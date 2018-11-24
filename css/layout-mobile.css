@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px){
+	body{
+		min-width: 320px;
+	}
+	.b-block{
+		width: calc(100% - 48px);
+	}
+	.b-menu{
+		display: none;
+	}
+	div.b-block.header-title{
+		height: 100%;
+		top: 0;
+	}
+	.b-service-item{
+		width: 100%;
+	}
+	.b-service-item:not(:first-child){
+	    margin-left: 0; 
+	}
+	.footer-left-column{
+	    width: 100%;
+	}
+	.footer-right-column{
+		width: 100%;
+	}
+	.b-popup form .wrap-input{
+		float: none; 
+    	width: 100%;
+	}
+	.under-form{
+	    margin-top: 18px;
+	}
+	.about-right{
+	    width: calc(100% + 48px);
+	    left: 0;
+        padding-bottom: 0; 
+	}
+	.cooperation h2.title{
+	    font-size: 44px;
+	    line-height: 36px;
+	}
+	.services .b-text{
+	    padding-bottom: 60px;
+	}
+	.footer-right-column .about-button{
+	    margin-bottom: 20px;
+	}
+	h2.title{
+	    font-size: 36px;
+	}
+	.header-title h2{
+	    line-height: 36px;
+	}
+	.header-title p{
+	    line-height: 28px;
+    	font-size: 20px;
+	}
+	.about .title{
+	    font-size: 36px;
+   		line-height: 36px;
+	}
+	.about-left{
+	    padding-top: 35px;
+	}
+	.about p{
+	    line-height: 28px;
+	}
+	.about h3{
+	    font-size: 26px;
+        line-height: 28px;
+	}
+	.b-about-icon p{
+		font-size: 19px;
+    	line-height: 26px;
+	}
+	.services h2.title{
+	    font-size: 36px;
+   		line-height: 36px;
+	}
+	.b-service-item-top p{
+	    font-size: 20px;
+	}
+	.b-service-item-bottom p{
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.cooperation h2.title{
+	    font-size: 36px;
+        padding-bottom: 20px;
+	}
+	.b-text{
+	    padding-top: 35px;
+        padding-bottom: 60px;
+	}
+	.cooperation p{
+	    text-align: left;
+        font-size: 20px;
+        line-height: 28px;
+	}
+	.footer h2.title{
+		font-size: 36px;
+		line-height: 36px;
+	}
+	.footer .footer-right-column p{
+		line-height: 26px;
+	}
+	.b-popup{
+	    padding: 24px 24px 36px;
+	}
+	.b-popup h4{
+	    line-height: 24px;
+	}
+	.b-popup h2.b-title{
+	    font-size: 34px;
+	}
+}
+@media screen and (max-width: 657px){
+	.footer-info-right{
+		float: left;
+	    padding-top: 0px;
+	}
+	.footer-info.left{
+		padding-bottom: 7px;
+	}
+}
+@media screen and (max-width: 565px){
+	.footer .personal-info{
+	    width: 100%;
+	}
+	.footer a.about-button.ajax{
+		float: left;
+    	margin-top: 18px;
+	    margin-bottom: 20px;
+	}
+	
+}
+@media screen and (max-width: 485px){
+	.header-contacts{
+		float: none;
+		margin-top: 20px;
+	}
+	.b-logo{
+		float: none;
+	}
+}
