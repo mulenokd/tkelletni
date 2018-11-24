@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="77px" viewBox="0 0 45 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>smartphone (1)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main" transform="translate(-1124.000000, -1185.000000)">
+            <g id="about" transform="translate(0.000000, 808.000000)">
+                <g id="Group" transform="translate(1105.000000, 93.000000)">
+                    <g id="Group-2" transform="translate(19.000000, 284.000000)">
+                        <g id="smartphone-(1)">
+                            <path d="M42.2364706,77 L2.76352941,77 C1.2375,77 0,75.7587069 0,74.228 L0,2.772 C0,1.2412931 1.2375,0 2.76352941,0 L42.2351471,0 C43.7625,0 45,1.2412931 45,2.772 L45,74.2266724 C45,75.7587069 43.7625,77 42.2364706,77 Z" id="Path" fill="#38454F"></path>
+                            <rect id="Rectangle" fill="#FFD564" x="0" y="8" width="45" height="57"></rect>
+                            <path d="M4,17 L9,12" id="Path" stroke="#F7A825" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M4,24 L7,21" id="Path" stroke="#F7A825" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="" id="Path" stroke="#1081E0" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M12,16 L16,12" id="Path" stroke="#F7A825" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M4,31 L16,19" id="Path" stroke="#F7A825" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="" id="Path" stroke="#1081E0" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M5.5,5 C5.11,5 4.7185,4.83396226 4.435,4.56226415 C4.1635,4.2754717 4,3.88301887 4,3.49056604 C4,3.08150943 4.1635,2.70415094 4.435,2.41886792 C4.99,1.86037736 5.995,1.86037736 6.565,2.41886792 C6.835,2.70415094 7,3.09811321 7,3.49056604 C7,3.88301887 6.835,4.2754717 6.565,4.56226415 C6.28,4.84754717 5.89,5 5.5,5 Z" id="Path" fill="#546A79"></path>
+                            <path d="M21,13 L22,12" id="Path" stroke="#F7A825" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M26.625,5 L18.375,5 C17.614625,5 17,4.3295 17,3.5 C17,2.6705 17.614625,2 18.375,2 L26.625,2 C27.385375,2 28,2.6705 28,3.5 C28,4.3295 27.385375,5 26.625,5 Z" id="Path" fill="#CBD4D8"></path>
+                            <path d="M38.6666667,5 L37.3333333,5 C36.596,5 36,4.3295 36,3.5 C36,2.6705 36.596,2 37.3333333,2 L38.6666667,2 C39.404,2 40,2.6705 40,3.5 C40,4.3295 39.404,5 38.6666667,5 Z" id="Path" fill="#546A79"></path>
+                            <path d="M32.6666667,5 L31.3333333,5 C30.596,5 30,4.3295 30,3.5 C30,2.6705 30.596,2 31.3333333,2 L32.6666667,2 C33.404,2 34,2.6705 34,3.5 C34,4.3295 33.404,5 32.6666667,5 Z" id="Path" fill="#546A79"></path>
+                            <path d="M25.9375,73 L19.0625,73 C17.928125,73 17,72.1 17,71 C17,69.9 17.928125,69 19.0625,69 L25.9375,69 C27.071875,69 28,69.9 28,71 C28,72.1 27.071875,73 25.9375,73 Z" id="Path" fill="#CBD4D8"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

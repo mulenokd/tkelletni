@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="199px" height="122px" viewBox="0 0 199 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.16">
+        <g id="main" transform="translate(-949.000000, -737.000000)" fill="#E2E5E7">
+            <g id="header" transform="translate(0.000000, 6.000000)">
+                <g id="btn" transform="translate(824.000000, 731.000000)">
+                    <path d="M314.741609,0 L253.613506,0 L125,121.482759 L323.62069,121.482759 L323.62069,5.1284907 C323.621376,2.29707865 319.646519,0 314.741609,0 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,15 +1,7 @@
 $(document).ready(function(){
 
-    $(".spincrement").spincrement({
-        from: 0,                // Стартовое число
-        to: false,              // Итоговое число. Если false, то число будет браться из элемента с классом spincrement, также сюда можно напрямую прописать число. При этом оно может быть, как целым, так и с плавающей запятой
-        decimalPlaces: 0,       // Сколько знаков оставлять после запятой
-        decimalPoint: ".",      // Разделитель десятичной части числа
-        thousandSeparator: ",", // Разделитель тыcячных
-        duration: 1000          // Продолжительность анимации в миллисекундах
-    });
-
     function resize(){
+
        if( typeof( window.innerWidth ) == 'number' ) {
             myWidth = window.innerWidth;
             myHeight = window.innerHeight;
@@ -21,15 +13,8 @@ $(document).ready(function(){
             myWidth = document.body.clientWidth;
             myHeight = document.body.clientHeight;
         }
-
-        var height = (myHeight <= 550)?550:myHeight;
-        $(".header").css({
-            "height" : height
-        });
-        $(".header-back").css({
-            "height" : height
-        });
     }
+
     $(window).resize(resize);
     resize();
 
@@ -58,125 +43,40 @@ $(document).ready(function(){
         }
     }
     $.fn.placeholder();
-    var myOptions = {
-        zoom: 16,
-        center: myPlace,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        disableDefaultUI: true,
-        scrollwheel: false,
-        zoomControl: true
-    }
-    var myPlace = {lat: 55.754407, lng: 37.625151};
+
+    var myPlace = {lat: 54.003005, lng: 86.641193};
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 16,
+      zoom: 15,
       center: myPlace,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
       scrollwheel: false,
       zoomControl: true,
-      styles:[
-        {
-            "featureType": "all",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "saturation": -100
-                },
-                {
-                    "gamma": 1
-                }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "geometry.fill",
-            "stylers": [
-                {
-                    "saturation": "-99"
-                },
-                {
-                    "lightness": "38"
-                },
-                {
-                    "gamma": "3.11"
-                },
-                {
-                    "color": "#aaaaaa"
-                }
-            ]
-        },
-        {
-            "featureType": "road.arterial",
-            "elementType": "geometry",
-            "stylers": [
-                { "color": "#fece0b" },
-                { "visibility": "simplified" }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "labels.text.fill",
-            "stylers": [
-                {
-                    "color": "#000000"
-                }
-            ]
-        }
-    ]
     });
+
     var marker = new google.maps.Marker({
       position: myPlace,
         map: map,
         icon: {
-            url: "i/pin.svg",
             scaledSize: new google.maps.Size(40, 58), // scaled size
             origin: new google.maps.Point(0,0), // origin
             anchor: new google.maps.Point(23,50), // anchor
         },
-        title: ""
+        title: "Интеллект"
     });
 
     $(document).ready(function() {
-        $("b-mouse").click(function () { 
-            var elementClick = $(this).attr("href");
-            var destination = $(elementClick).offset().top;
-            $('html,body').animate( { scrollTop: destination }, 1100 );
-            return false;
+        $(".tab").click(function () { 
+            $(".tab").removeClass("active");
+            $(this).addClass("active");
+            var id = $(this).attr("data-id");
+            $(".price").addClass("hide");
+            $("#"+id).removeClass("hide");
+        });
+
+        $(".fancy").click(function(){
+                $("input[name=device]").val($(this).attr("data-popup"));
         });
     });
-
- //    var myOptions = {
- //        zoom: 16,
- //        center: myPlace,
- //        mapTypeId: google.maps.MapTypeId.ROADMAP,
- //        disableDefaultUI: true,
- //        scrollwheel: false,
- //        zoomControl: true
- //    }
- //    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
-
- //    var marker = new google.maps.Marker({
-	//     position: myPlace,
-	//     map: map,
-	//     title: "Ярмарка вакансий и стажировок"
-	// });
-
-    //  var options = {
-    //     $AutoPlay: true,                                
-    //     $SlideDuration: 500,                            
-
-    //     $BulletNavigatorOptions: {                      
-    //         $Class: $JssorBulletNavigator$,             
-    //         $ChanceToShow: 2,                           
-    //         $AutoCenter: 1,                            
-    //         $Steps: 1,                                  
-    //         $Lanes: 1,                                  
-    //         $SpacingX: 10,                              
-    //         $SpacingY: 10,                              
-    //         $Orientation: 1                             
-    //     }
-    // };
-
-    // var jssor_slider1 = new $JssorSlider$("slider1_container", options);
 
 });
