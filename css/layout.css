@@ -1,41 +1,25 @@
 @charset "utf-8";
 
 @font-face {
-	font-family: 'icomoon';
-	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),  
-		 url('../fonts/icomoon.woff') format('woff'),
-		 url('../fonts/icomoon.ttf')  format('truetype'),
-		 url('../fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'ProximaNova-Semibold';
+    src: url('../fonts/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'ProximaNova-Regular';
     src: url('../fonts/ProximaNova-Regular.eot');
     src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ProximaNova-Regular.woff') format('woff'),
-         url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ProximaNova-Semibold';
-    src: url('../fonts/ProximaNova-Semibold.eot');
-    src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ProximaNova-Semibold.woff') format('woff'),
-         url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ProximaNova-Bold';
-    src: url('../fonts/ProximaNova-Bold.eot');
-    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ProximaNova-Bold.woff') format('woff'),
-         url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -44,8 +28,22 @@
     font-family: 'ProximaNova-Black';
     src: url('../fonts/ProximaNova-Black.eot');
     src: url('../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ProximaNova-Black.woff') format('woff'),
-         url('../fonts/ProximaNova-Black.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Black.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Black.woff') format('woff'),
+        url('../fonts/ProximaNova-Black.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Black.svg#ProximaNova-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -138,7 +136,8 @@ table
 		th:nth-child(2){
 			background-color: #D7D7D7;
 			color: #282828;
-			width: 260px;
+			width: 30%;
+			max-width: 260px;
 		}
 		td{
 			padding: 14px 25px 15px;
@@ -317,6 +316,7 @@ table
 	}
 		.about-inner h3{
 			margin-top: 33px;
+			max-width: 500px;
 		}
 		.about-inner p{
 			margin-top: 30px;
@@ -377,7 +377,7 @@ table
 			margin-top: 31px;
 		}
 	.services h3{
-		max-width: 770px;
+		max-width: 600px;
 		margin-top: 51px;
 	}
 	.services .tabs{
@@ -580,8 +580,10 @@ b{
 	font-family: "ProximaNova-Black";
 }
 
-@media screen and (max-width: 1250px){
-	
+@media screen and (max-width: 1400px){
+	.header-main-block{
+		height: 500px;
+	}
 }
 
 @media screen and (max-width: 1020px){

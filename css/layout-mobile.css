@@ -1,146 +1,111 @@
 @media screen and (max-width: 768px){
 	body{
-		min-width: 320px;
+		min-width: 300px;
 	}
-	.b-block{
-		width: calc(100% - 48px);
+	.header-main-block{
+		height: calc(100vh - 150px);
 	}
-	.b-menu{
-		display: none;
+}
+@media screen and (max-width: 700px){
+	.logo{
+	    width: 129px;
+    	height: 57px;
 	}
-	div.b-block.header-title{
-		height: 100%;
-		top: 0;
+	.menu ul{
+		margin-top: 20px;
 	}
-	.b-service-item{
-		width: 100%;
+	.menu-left-block{
+		margin-top: 8px;
 	}
-	.b-service-item:not(:first-child){
-	    margin-left: 0; 
-	}
-	.footer-left-column{
-	    width: 100%;
-	}
-	.footer-right-column{
-		width: 100%;
-	}
-	.b-popup form .wrap-input{
-		float: none; 
-    	width: 100%;
-	}
-	.under-form{
-	    margin-top: 18px;
-	}
-	.about-right{
-	    width: calc(100% + 48px);
-	    left: 0;
-        padding-bottom: 0; 
-	}
-	.cooperation h2.title{
-	    font-size: 44px;
-	    line-height: 36px;
-	}
-	.services .b-text{
-	    padding-bottom: 60px;
-	}
-	.footer-right-column .about-button{
-	    margin-bottom: 20px;
-	}
-	h2.title{
-	    font-size: 36px;
-	}
-	.header-title h2{
-	    line-height: 36px;
-	}
-	.header-title p{
-	    line-height: 28px;
-    	font-size: 20px;
-	}
-	.about .title{
-	    font-size: 36px;
-   		line-height: 36px;
-	}
-	.about-left{
-	    padding-top: 35px;
-	}
-	.about p{
-	    line-height: 28px;
-	}
-	.about h3{
-	    font-size: 26px;
-        line-height: 28px;
-	}
-	.b-about-icon p{
-		font-size: 19px;
-    	line-height: 26px;
-	}
-	.services h2.title{
-	    font-size: 36px;
-   		line-height: 36px;
-	}
-	.b-service-item-top p{
-	    font-size: 20px;
-	}
-	.b-service-item-bottom p{
-		font-size: 18px;
-		line-height: 26px;
-	}
-	.cooperation h2.title{
-	    font-size: 36px;
-        padding-bottom: 20px;
-	}
-	.b-text{
-	    padding-top: 35px;
-        padding-bottom: 60px;
-	}
-	.cooperation p{
-	    text-align: left;
-        font-size: 20px;
-        line-height: 28px;
-	}
-	.footer h2.title{
-		font-size: 36px;
+	h1{
+	    font-size: 32px;
 		line-height: 36px;
 	}
-	.footer .footer-right-column p{
-		line-height: 26px;
+	h2{
+	    font-size: 32px;
+		line-height: 36px;
 	}
-	.b-popup{
-	    padding: 24px 24px 36px;
+	h3{
+	    font-size: 24px;
+		line-height: 28px;
 	}
-	.b-popup h4{
-	    line-height: 24px;
+	.b-btn{
+		font-size: 16px;
+		padding: 14px 26px;
 	}
-	.b-popup h2.b-title{
-	    font-size: 34px;
+	.services .tabs{
+		max-width: 240px;
+		margin-top: 20px;
+	}
+	.services .tab{
+		margin-bottom: 15px;
+		font-size: 20px;
+	}
+	.tab-link{
+		float: none;
+		max-width: 100%;
+	}
+	.services-top-block{
+		margin-bottom: 30px;
 	}
 }
-@media screen and (max-width: 657px){
-	.footer-info-right{
-		float: left;
-	    padding-top: 0px;
+@media screen and (max-width: 650px){
+	.menu ul{
+		display: none;
 	}
-	.footer-info.left{
-		padding-bottom: 7px;
-	}
-}
-@media screen and (max-width: 565px){
-	.footer .personal-info{
-	    width: 100%;
-	}
-	.footer a.about-button.ajax{
-		float: left;
-    	margin-top: 18px;
-	    margin-bottom: 20px;
+	.b-btn{
+		width: 250px;
 	}
 	
 }
-@media screen and (max-width: 485px){
-	.header-contacts{
-		float: none;
-		margin-top: 20px;
+@media screen and (max-width: 350px){
+	.menu-left-block a{
+		font-size: 14px;
 	}
-	.b-logo{
-		float: none;
+	h1{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	h2{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	h3{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	h4{
+
+	}
+	.about{
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+	.about-inner-item:nth-child(1) a:before{
+		width: 61px;
+	}
+	.about-inner-item:nth-child(2) a:before{
+		width: 60px;
+		left: -101px;
+	}
+	.about-inner-item:nth-child(3) a:before{
+		width: 60px;
+		left: -100px;
+	}
+	.services h4{
+		margin-top: 40px;
+		margin-bottom: 20px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	table{
+		width: calc(100% + 48px);
+		margin:0 -24px;
+	}
+}
+@media screen and (max-width: 320px){
+	.logo{
+		width: 119px;
+		height: 52px;
 	}
 }
