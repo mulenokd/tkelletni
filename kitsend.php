@@ -1,13 +1,12 @@
 <?php
 	require_once("phpmail.php");
 
-	$email_admin = "beatbox787@gmail.com";
-	// $email_admin = "soc.taxi.35@gmail.com";
+	$email_admin = "mulenokd@gmail.com";
 
-	$from = "“Технотрейд Сервис”";
-	$email_from = "ttservice@ttservice.ru";
+	$from = "“Интеллект сервис”";
+	$email_from = "mulenokd@gmail.com";
 
-	$deafult = array("name"=>"Имя","phone"=>"Телефон", "email"=>"E-mail", "comment" => "Комментарий");
+	$deafult = array("name"=>"Имя","phone"=>"Телефон", "device"=>"Устройство", "service" => "Услуга");
 
 	$fields = array();
 
@@ -36,7 +35,6 @@
 		}
 			
 		$message .= "</div>";
-		
 		if(send_mime_mail("Сайт ".$from,$email_from,$name,$email_admin,'UTF-8','UTF-8',$subject,$message,true)){	
 			echo "1";
 		}else{

@@ -77,6 +77,9 @@ $(document).ready(function(){
         $(".fancy").click(function(){
                 $("input[name=device]").val($(this).attr("data-popup"));
         });
+
+        if( typeof autosize == "function" )
+        autosize(document.querySelectorAll('textarea'));
     });
 
 });
